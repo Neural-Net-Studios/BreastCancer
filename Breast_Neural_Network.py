@@ -4,7 +4,7 @@ from keras.models import Sequential
 from sklearn.model_selection import train_test_split
 
 # Data
-data = pd.read_csv('PATH')
+data = pd.read_csv('Breast_cancer_data.csv')
 x = data.drop(['diagnosis'], axis=1)
 y = data['diagnosis']
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.33)
