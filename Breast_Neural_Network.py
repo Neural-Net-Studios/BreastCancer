@@ -1,7 +1,6 @@
 from keras import layers
 import pandas as pd
 from keras.models import Sequential
-import numpy as np
 from sklearn.model_selection import train_test_split
 
 # Data
